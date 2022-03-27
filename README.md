@@ -1,5 +1,7 @@
 # peactice-RWD-kimetsu
 
+https://dpes8693.github.io/peactice-RWD-kimetsu/
+
 練習響應式切版-兩欄式
 
 ## 製作前期的截圖
@@ -12,6 +14,8 @@
 ![2](https://i.imgur.com/RUSXqhj.png)
 3
 ![3](https://i.imgur.com/qS9quvE.jpg)
+...中間略 
+![4](https://i.imgur.com/WhN8sWz.png)
 
 ## 其他
 
