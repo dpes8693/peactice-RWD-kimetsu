@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Insert title here</title>
+
+    <style type="text/css">
+      body {
+        padding: 5px;
+      }
+
+      .wrapper {
+        border-radius: 15px;
+        padding: 25px;
+        min-height: 700px;
+        background-color: blanchedalmond;
+      }
+
+      .header {
+        min-height: 100px;
+        background-color: #c70039;
+        margin-bottom: 15px;
+      }
+
+      .mainContent {
+        background-color: #ffc300;
+        width: 49%;
+        min-width: 450px;
+        min-height: 500px;
+        float: left;
+        margin-right: 2%;
+        margin-bottom: 15px;
+        overflow: hidden;
+      }
+
+      .sidebar {
+        background-color: #ff5733;
+        width: 49%;
+        min-width: 450px;
+        min-height: 500px;
+        float: left;
+      }
+
+      .footer {
+        position: relative;
+        bottom: 0;
+        min-height: 100px;
+        min-width: 91%;
+        clear: both;
+        background-color: #581845;
+        margin-top: 15px;
+      }
+      /* .article,p{
+        white-space:normal
+      } */
+
+      @media screen and (max-width: 990px) {
+        body {
+          padding: 2px;
+        }
+
+        .header {
+          margin-bottom: 1px;
+        }
+
+        .wrapper {
+          border-radius: 5px;
+          padding: 15px;
+        }
+
+        .mainContent {
+          min-width: 100%;
+          margin-right: 0;
+          margin-bottom: 1px;
+        }
+
+        .sidebar {
+          min-width: 100%;
+          min-height: 50px;
+          margin-bottom: 1px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="header">Header</div>
+      <div class="mainContent">
+        <div class="article">
+          <h2>Heading 2</h2>
+          <p>
+            article2 content. article2 content. article2 content. article2
+            content. article2 content. 123456
+          </p>
+        </div>
+      </div>
+      <div class="sidebar">a side bar.</div>
+      <div class="footer">footer area</div>
+    </div>
+  </body>
+</html>
